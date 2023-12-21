@@ -1,0 +1,36 @@
+.secondary {
+    align-items: center;
+    gap: 69px;
+    margin: 0 5rem;
+}
+
+.secondary__image {
+    width: 80%;
+}
+
+.secondary__button {
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+.description__title {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.description__text {
+    color: var(--gray-color);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 0.5rem;
+}
+
+@media screen and (max-width: 1024px) {
+    .secondary {
+        margin: 2rem;
+    }
+
+    .secondary__image {
+        width: 100%;
+    }
+}
