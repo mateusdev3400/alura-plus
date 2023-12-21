@@ -1,0 +1,15 @@
+@import url('./container/container.css');
+@import url('./secondary/secondary.css');
+@import url('./device/device.css');
+
+.main {
+    background: url("../../images/image-background.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+@media screen and (max-width: 1024px) {
+    .main {
+        background: none;
+    }
+}
